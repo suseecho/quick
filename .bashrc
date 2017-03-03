@@ -1,0 +1,7 @@
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias vi='vim'
+alias cls='clear'
+alias gcc='gcc -W'
+alias cc='gcc -W'
