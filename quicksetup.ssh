@@ -3,3 +3,8 @@ sudo yum install mariadb -y
 sudo yum install vsftpd -y
 sudo yum install nginx -y
 sudo yum install php-fpm -y
+sudo cp .vimrc /home/echo/.vimrc
+sudo cp .vimrc /root/.vimrc
+sudo cp .bashrc /home/echo/.bashrc
+sudo cp .bashrc /root/.vimrc
+

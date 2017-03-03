@@ -3,8 +3,4 @@ sudo mkdir /home/echo/git
 sudo git clone https://github.com/suseecho/quick.git
 sudo cd /home/echo/git
 sudo ./ntpdate.ssh
-sudo yum update -y
-sudo yum install vsftpd -y
-sudo yum install mariadb -y
-sudo yum install php-fpm -y
 sudo ./quickcheck.ssh
