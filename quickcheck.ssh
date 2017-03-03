@@ -1,1 +1,4 @@
-sudo systemctl status vsftpd
+sudo systemctl status vsftpd > vsftpd.log
+sudo systemctl status nginx > nginx.log
+sudo systemctl status php > php.log
+
