@@ -1,4 +1,4 @@
-sudo yum install git -y
+sudo apt install git -y
 sudo mkdir /home/echo/git
 sudo git clone https://github.com/suseecho/quick.git
 sudo cd /home/echo/git
