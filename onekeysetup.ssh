@@ -1,6 +1,9 @@
-sudo apt install git -y
-sudo mkdir /home/echo/git
-sudo git clone https://github.com/suseecho/quick.git
-sudo cd /home/echo/git
+sudo yum install git -y
+mkdir /home/echo/git
+cd /home/echo/git
+git clone https://github.com/suseecho/quick.git
+cd /home/echo/git/quick
+chmod 550 *.ssh
 sudo ./ntpdate.ssh
-sudo ./quickcheck.ssh
+sudo ./quicksetup.ssh
+./quickcheck.ssh
