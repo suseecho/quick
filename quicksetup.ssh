@@ -3,8 +3,8 @@ sudo apt install mariadb -y
 sudo apt install vsftpd -y
 sudo apt install nginx -y
 sudo apt install php-fpm -y
-sudo cp .vimrc /home/echo/.vimrc
+cp .vimrc /home/echo/.vimrc
 sudo cp .vimrc /root/.vimrc
-sudo cp .bashrc /home/echo/.bashrc
+cp .bashrc /home/echo/.bashrc
 sudo cp .bashrc /root/.vimrc
 
