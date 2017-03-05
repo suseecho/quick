@@ -7,5 +7,8 @@ cp .vimrc /home/echo/.vimrc
 sudo cp .vimrc /root/.vimrc
 cp .bashrc /home/echo/.bashrc
 sudo cp .bashrc /root/.vimrc
+sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
+sudo cp nginx.conf /etc/nginx/nginx.conf
 sudo systemctl start nginx
 sudo systemctl start vsftpd
+sudo systemctl start php-fpm
