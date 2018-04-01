@@ -1,3 +1,4 @@
+#!/bin/sh
 old=$IFS
 IFS=$'\n'
 for dir in `ls .`
