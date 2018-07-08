@@ -2,7 +2,7 @@
 *   Copyright (C) 2018  All rights reserved.
 *   
 *   文件名称：ftp_server.c
-*   创 建 者：echo
+*   创 建 者：echo (echoxj233@gmail.com)
 *   创建日期：2018年07月06日
 *   描    述：
 *
